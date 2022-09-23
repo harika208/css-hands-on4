@@ -1,0 +1,204 @@
+.one{
+    border:1px solid black;
+    background-image: linear-gradient(to right, red ,
+                                      green, 
+                                      yellow);
+    text-decoration: underline;   
+    text-align: center;      
+                             
+}
+.bol{
+    background-color:skyblue ;
+
+}
+
+.two{
+    border:3px solid red;
+    background-color: skyblue;
+    border-radius: 15px;
+    height: 75px;
+    width: 500px;
+    text-align: center;
+    margin-left: 400px;
+}
+ul{
+    margin: 10px;
+}
+.three{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    background-color: rgb(14, 235, 235);
+    height: 150px;
+    width:100%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.three1{
+    height: 70px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:rgb(75, 243, 243) ;
+    margin-left: 30px;
+}
+.three2{
+    height: 70px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:rgb(75, 243, 243) ;
+    margin-left: 35px;
+}
+.three3{
+    height: 70px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:rgb(75, 243, 243) ;
+    margin-left: 35px;
+}
+.three4{
+    height: 70px;
+    width: 400px;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:rgb(75, 243, 243) ;
+    margin-left: 470px;
+}
+
+.four{
+    width:100%;
+    height:35px;
+    background-image: linear-gradient(to right, red, yellow, red);
+    border:1px solid black;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.five{
+    width:100%;
+    height: 250px;
+    border:1px solid black;
+    background-image: radial-gradient(blue, rgb(16, 179, 243), green);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.five1{
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+    border:2px solid red;
+    border-radius: 10px;
+    margin-top: 70px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.five2{
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+    border:2px solid red;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-right: 20px;
+    margin-left: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.five3{
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+    border:2px solid red;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 40px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.five4{
+    width: 200px;
+    height: 80px;
+    background-color: yellow;
+    border:2px solid red;
+    border-radius: 10px;
+    margin-top: 70px;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.six{
+display: grid;
+grid-template-columns: repeat(3,405px) 70px;
+grid-template-rows: 60px 100px 150px 35px;
+border: 1px solid black;
+width:100%;
+grid-gap:15px;
+height:390px;
+}
+
+.six1{
+    
+    background-color: red;
+    grid-column: 1/-1;
+    text-align: center;
+    color:white;
+
+}
+.six2{
+    background-color:black;
+    grid-row: 2/4;
+    grid-column: 4/5;
+    color:white;
+    text-decoration: underline;
+    line-height: 25px;
+}
+.six3{
+    background-color:lightgreen;
+    color:white;
+    text-align: center;
+}
+.six4{
+    
+    background-color:skyblue;
+    color:white;
+    text-align: center;
+}
+.six5{
+
+    background-color: rgb(41, 41, 146);
+    color:white;
+
+
+}
+.six6{
+
+    background-color: orange;
+    grid-column: 1/4;
+    color: white;
+}
+.six7{
+
+    background-color:skyblue;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+
